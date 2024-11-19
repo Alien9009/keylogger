@@ -1,1 +1,1 @@
-# keylogger
+KeyLogger: Secure Keylogging & Data Traceability KeyLogger is a Python project that captures keyboard input, organizes logs with datetime-based filenames, and securely stores them locally and on Google Cloud Storage. It offers email alerts using Gmail API. Enhance data traceability and privacy with KeyLogger# keylogger
